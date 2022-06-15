@@ -1,0 +1,113 @@
+
+#cabeçalho {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    justify-content: space-evenly;
+}
+
+.logo-arte-na-rede {
+    width: 150px;
+    margin: 10px 0;
+}
+
+.menus a {
+    margin: 20px;
+    text-decoration: none;
+    color: rgb(37, 37, 37);
+    /* transition: 0.3s; */
+}
+
+.menus a:hover {
+    margin: 20px;
+    text-decoration: none;
+    color: #F79418;
+}
+
+#navItem {
+    color: rgb(37, 37, 37);
+}
+
+#navItem:hover {
+    color: #F79418;
+}
+
+#test {
+    justify-content: space-around;
+}
+
+.menu {
+    flex-grow: 0;
+}
+
+.menu li {
+    margin: 7px;    
+}
+
+
+
+/* @media screen and (max-width: 1200px) { */
+
+/* Burger menu */
+.burger-container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #burger-checkbox-menu{
+    position: absolute;
+    opacity: 0;
+  }
+  
+  label{
+    cursor: pointer;
+    position: relative;
+    display: block;
+    height: 22px;
+    width: 30px;
+  }
+  
+  label span{
+    position: absolute;
+    display: block;
+    height: 5px;
+    width: 100%;
+    border-radius: 30px;
+    background: #F79418;;
+    transition: 0.25s ease-in-out;
+  }
+  
+  label span:nth-child(1){
+    top: 0;
+  }
+  
+  label span:nth-child(2){
+    top: 8px;
+  }
+  
+  label span:nth-child(3){
+    top: 16px;
+  }
+  
+  #burger-checkbox-menu:checked + label span:nth-child(1){
+    transform: rotate(-45deg);
+    top: 8px;
+  }
+  
+  #burger-checkbox-menu:checked + label span:nth-child(2){
+    opacity: 0;
+  }
+  
+  #burger-checkbox-menu:checked + label span:nth-child(3){
+    transform: rotate(45deg);
+    top:8px;
+  }
+
+/* } */
+/*////////////////////////////////////////////////////
+
+/* até 1200px de largura vai virar pra versão mobile com menu sanduíche */
+
+/* sem barra quando não fizer scroll de menu com fundo branco */
