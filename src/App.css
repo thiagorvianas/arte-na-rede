@@ -3,5 +3,5 @@
 }
 
 body {
-  background-image: url("./backgrounds/fundo-site-arte-na-rede1.png");
+  background-image: url('/public/image/backgrounds/fundo-site-arte-na-rede1.png');
 }
