@@ -5,3 +5,7 @@
 body {
   background-image: url('/public/image/backgrounds/fundo-site-arte-na-rede1.png');
 }
+
+main {
+  padding: 125px 0 30px;
+}

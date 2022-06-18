@@ -15,6 +15,7 @@ const burgerMenu = (
                 <span></span>
             </label>
         </div>
+        {/* <p>Menu</p> */}
     </button>
 );
 
@@ -26,27 +27,29 @@ const mainMenu = (
             </li>
 
             <li className="nav-item">
-                <Link id='navItem' className="nav-link active" aria-current="page" to='/sobre'>Sobre</Link>
+                <Link id='navItem' className="nav-link active" aria-current="page" to='/sobre-o-projeto'>Sobre o projeto</Link>
+            </li>
+
+            <li className="nav-item dropdown">
+                <Link id='navItem' className="nav-link active" aria-current="page" to='/acoes-formativas'>Ações formativas</Link>
+                <div className='dropdown-content'>
+                    <Link id='navItem' className="nav-link active" to='/acoes-formativas/dancando-pelo-piaui'>Oficinas Dançando pelo Piauí</Link>
+                    <Link id='navItem' className="nav-link active" to='/acoes-formativas/outras-formacoes'>Outras formações</Link>
+                    <Link id='navItem' className="nav-link active" to='/acoes-formativas/aulas-livres-de-danca'>Aulas livres de dança</Link>
+                    <Link id='navItem' className="nav-link active" to='/acoes-formativas/seminarios'>Seminários</Link>
+                </div>
             </li>
 
             <li className="nav-item">
-                <Link id='navItem' className="nav-link active" aria-current="page" to='/quem-somos'>Quem somos</Link>
+                <Link id='navItem' className="nav-link active" aria-current="page" to='/ocupa-a-rede'>Ocupa a Rede</Link>
             </li>
 
             <li className="nav-item">
-                <Link id='navItem' className="nav-link active" aria-current="page" to='/acoes-afirmativas'>Ações afirmativas</Link>
+                <Link id='navItem' className="nav-link active" aria-current="page" to='/apresentacoes'>Apresentações</Link>
             </li>
 
             <li className="nav-item">
-                <Link id='navItem' className="nav-link active" aria-current="page" to='/videos'>Videos</Link>
-            </li>
-
-            <li className="nav-item">
-                <Link id='navItem' className="nav-link active" aria-current="page" to='/redes'>Redes</Link>
-            </li>
-
-            <li className="nav-item">
-                <Link id='navItem' className="nav-link active" aria-current="page" to='/apoiadores-e-parceiros'>Apoiadores/parceiros</Link>
+                <Link id='navItem' className="nav-link active" aria-current="page" to='/artistas-convidades'>Artistas convidades</Link>
             </li>
         </ul>
     </nav>
@@ -56,17 +59,17 @@ class Header extends React.Component {
     render() {
         return (
 
-                <header className="navbar navbar-expand-lg bg-light p-0">
-                    <div id="head" className="container-fluid p-0">
+            <header className="navbar navbar-expand-lg bg-light p-0">
+                <div id="head" className="container-fluid p-0">
 
-                        {burgerMenu}
+                    {burgerMenu}
 
-                        <Logotipo />
-                        
-                        {mainMenu}
+                    <Logotipo />
 
-                    </div>
-                </header>
+                    {mainMenu}
+
+                </div>
+            </header>
 
         );
     }

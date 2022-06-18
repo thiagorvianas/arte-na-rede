@@ -7,11 +7,13 @@ import Routes from './Routes';
 
 function App() {
   return (
+    <>
+      <Header />
       <div className="App">
-        <Header />
-          <Routes />
-        <Footer />
+        <Routes />
       </div>
+      <Footer />
+    </>
   );
 }
 
