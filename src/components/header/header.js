@@ -15,7 +15,6 @@ const burgerMenu = (
                 <span></span>
             </label>
         </div>
-        {/* <p>Menu</p> */}
     </button>
 );
 
@@ -35,7 +34,7 @@ const mainMenu = (
                 <div className='dropdown-content'>
                     <Link id='navItem' className="nav-link active" to='/acoes-formativas/dancando-pelo-piaui'>Oficinas Dançando pelo Piauí</Link>
                     <Link id='navItem' className="nav-link active" to='/acoes-formativas/outras-formacoes'>Outras formações</Link>
-                    <Link id='navItem' className="nav-link active" to='/acoes-formativas/aulas-livres-de-danca'>Aulas livres de dança</Link>
+                    <a href='http://redemoinhodedanca.com.br' id='navItem' className="nav-link active" to='/acoes-formativas/aulas-livres-de-danca' target='_blank' rel="noreferrer">Aulas livres de dança</a>
                     <Link id='navItem' className="nav-link active" to='/acoes-formativas/seminarios'>Seminários</Link>
                 </div>
             </li>

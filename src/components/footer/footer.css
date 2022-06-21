@@ -1,11 +1,18 @@
 .footer {
-  position: absolute;
+  position: relative;
   bottom: 0;
   width: 100%;
   background-color: #fff;
-  padding: 50px;
+  padding: 25px;
 }
 
 .social i {
     margin: 0 10px;
+}
+
+.patrocinadores {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 20px; */
 }

@@ -7,5 +7,13 @@ body {
 }
 
 main {
-  padding: 125px 0 30px;
+  padding: 100px 0 30px;
 }
+
+.carousel-item img {
+  object-fit: cover !important;
+  width: 100vw;
+  height: 100vh;
+}
+
+
