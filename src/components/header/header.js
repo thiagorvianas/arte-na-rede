@@ -63,7 +63,7 @@ class Header extends React.Component {
 
                     {burgerMenu}
 
-                    <Logotipo />
+                    <Logotipo adress="./image/arte-na-rede-pi.png" />
 
                     {mainMenu}
 

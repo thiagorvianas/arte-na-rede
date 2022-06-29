@@ -1,24 +1,89 @@
 import React from 'react';
 import './footer.css';
+import Logotipo from '../logotipo';
 
 class Footer extends React.Component {
     render() {
         return (
-            <footer className='footer'>        
+            <footer className='footer'>
                 <div className='social text-center'>
-                    <i className="fa-brands fa-instagram"/>
-                    <i className="fa-brands fa-facebook-square"/>
-                    <i className="fa-solid fa-envelope"/>
+                    <div>
+                        <Logotipo adress="./image/patrocinio/ARTE-NA-REDE-PI-LOGO-PRETO-E-AMARELO.png" />
+                    </div>
+
+                    <div className="social-container">
+                        <div className="follow-us">
+                            <p>ACOMPANHE NOSSAS<br />REDES SOCIAIS</p>
+                            <img src="./image/patrocinio/Retângulo branco.png" alt="no" width="1.5px" />
+                        </div>
+
+                        <ul className='social-button'>
+                            <li>
+                                <a href='https://www.instagram.com/artena_rede/' target="blank">
+                                    <img src='./image/patrocinio/instagram.png' alt='no' width='35px' />
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href='https://www.facebook.com/artenaredepi/' target="blank">
+                                    <img src='./image/patrocinio/facebook.png' alt='no' width='35px' />
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href='https://www.youtube.com/channel/UC_sFWsgggd5M5ZtoMsOR8bw' target="blank">
+                                    <img src='./image/patrocinio/youtube.png' alt='no' width='35px' />
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href='mailto:redemoinho.danca@gmail.com' target="blank">
+                                    <img src='./image/patrocinio/email.png' alt='no' width='35px' />
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
 
                 <div className='patrocinadores'>
-                    <img src='./image/patrocinio/Armazém_Paraíba_logo.png' alt='no' width='60px' />
-                    <img src='./image/patrocinio/brasão_azul_LOGO-SEDUC_e_SECULT__png.png' width='350px' alt='no' />
-                    <img src='./image/patrocinio/Cópia de PROMULTI-logo-final_aprovada.png' width='150px' alt='no' />
-                    <img src='./image/patrocinio/Cópia de REDEMOINHO-LOGO-5-PRETO-WEB.png' width='75px' alt='no' />
+                    <div className="logos-patrocinio">
+                        {/* REDEMOINHO */}
+                        <div className='patro-logo'>
+                            <p>Patrocínio</p>
+                            <a href='http://redemoinhodedanca.com.br/' target="blank">
+                                <img className="redemoinho" src='./image/patrocinio/REDEMOINHO-LOGO-5-COR-WEB.png' alt='no' />
+                            </a>
+                        </div>
+
+                        <img className='retangulo' src='./image/patrocinio/Retângulo.png' alt='no' width='1.5px' />
+
+                        <div className='patro-logo'>
+                            <p>Realização</p>
+                            {/* PROMULT */}
+                            <a href='http://instagram.com/promultipi/' target="blank">
+                                <img className='promulti' src='./image/patrocinio/Cópia de PROMULTI-logo-final_aprovada.png' alt='no' />
+                            </a>
+                        </div>
+                            
+                        <img className='retangulo' src='./image/patrocinio/Retângulo.png' alt='no' width='1.5px' />
+
+                        <div className='patro-logo'>
+                            <p>Produção</p>
+                            {/* SECULT */}
+
+                            <a href='http://cultura.pi.gov.br/' target="blank">
+                                <img className='secult' src='./image/patrocinio/SECULT.png' alt='no' />
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <div className='copyright'>
+                        <p>© Copyright 2022. Arte na Rede PI. Todos os direitos reservados.</p>
+                    </div>
                 </div>
             </footer>
-          );
+        );
     }
 }
 

@@ -26,7 +26,6 @@
     display: flex !important;
     justify-content: start !important;
     margin: 20px;
-    /* padding: 25px; */
     border-radius: 15px;
 }
 
@@ -35,10 +34,6 @@
     display: flex !important;
     justify-content: start !important;
     align-items: center;
-}
-
-.carousel {
-    /* display: flex; */
 }
 
 @media screen and (max-width: 991px) {

@@ -2,17 +2,139 @@
   position: relative;
   bottom: 0;
   width: 100%;
-  background-color: #fff;
-  padding: 25px;
+  /* padding: 25px; */
+  height: 100px;
+  margin: 0;
 }
+
+/* SOCIAL */
 
 .social i {
     margin: 0 10px;
 }
 
+.social {
+  background-image: url('../../../public/image/patrocinio/fundo-footer-cima.jpg');
+  background-position: center;
+  background-size: 100% 100%;
+  margin: 0px;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.social-button {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.social-button li {
+  display: flex;
+  align-items: center;
+}
+
+.social-button li:hover {
+  opacity: 80%;
+  transition: 0.5s;
+}
+
+.social-container {
+  display: flex;
+  color: #fff;
+  /* align-items: center; */
+  text-align: end;
+}
+
+.social-container img {
+  margin: 0 10px;
+}
+
+.follow-us {
+  display: flex;
+  align-items: center;
+}
+
+.follow-us p {
+  margin: 0 10px;
+}
+
+/* PATROCINADORES */
+
 .patrocinadores {
+  background-image: url('../../../public/image/patrocinio/fundo-footer-baixo.jpg');
+  background-position: center;
+  background-size: 100% 100%;
+  padding: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* margin-top: 20px; */
+  flex-direction: column;
+}
+
+.logos-patrocinio {
+  display: flex;
+  /* justify-content: space-evenly; */
+  
+}
+
+.patro-logo p {
+  margin: 0 10px;
+}
+
+.patro-logo {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+}
+
+.copyright {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.redemoinho {
+  width: 85px;
+  margin: 10px 10px 20px 0 ;
+}
+
+.promulti {
+  width: 175px;
+  margin-top: 5px;
+}
+
+.secult {
+  width: 250px;
+  margin: 20px 0 25px 20px;
+
+}
+
+.retangulo {
+  width: 2px;
+  margin: 0 10px 0;
+}
+
+@media screen and (max-width: 991px) {
+  .redemoinho {
+    width: 80px;
+    margin: 10px 5px 5px 0 ;
+  }
+  
+  .promulti {
+    width: 150px;
+    margin-top: 5px;
+  }
+  
+  .secult {
+    width: 200px;
+    margin: 20px 0 25px 10px;
+  
+  }
+
+  .retangulo {
+    margin: 0 5px 0;
+  }
 }
