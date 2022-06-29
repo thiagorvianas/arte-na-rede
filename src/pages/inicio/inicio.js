@@ -1,10 +1,13 @@
 import React from "react";
 import './inicio.css'
 import { Link } from "react-router-dom";
+import Title from "../../components/items/titles";
 
 const Home = () => {
     return (
         <>
+            {/* 
+            // carrossel de fotos
             <section>
                 <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
@@ -18,6 +21,13 @@ const Home = () => {
                             <img src="./image/photos/IMG_2697.jpg" class="d-block w-100" alt="..." />
                         </div>
                     </div>
+                </div>
+            </section> */}
+
+            <section id="welcome">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                    <Title text="Arte na Rede Pi" />
+                    {/* <img src="./image/carrossel/carrossel-de-foto-pg-inicial.jpg" class="d-block w-100" alt="..." /> */}
                 </div>
             </section>
 

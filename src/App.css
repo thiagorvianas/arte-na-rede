@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Amarillo;
+  src: url('../public/fonts/Amarillo.otf');
+}
+
 * {
   font-family: 'Ubuntu', sans-serif;
 }
@@ -8,12 +13,28 @@ body {
 
 main {
   padding: 100px 0 30px;
+  
 }
 
-.carousel-item img {
-  object-fit: cover !important;
+.carousel{
+  /* object-fit: cover !important; */
+  /* position: ; */
   width: 100vw;
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+#welcome {
+  background-image: url('/public/image/carrossel/carrossel-de-foto-pg-inicial.jpg');
+  background-position: center;
+  background-size: 2000px;
+}
 
+.title {
+  font-family: Amarillo;
+  color: #fff;
+  font-size: 5em;
+  text-decoration: underline #F79418;
+}
