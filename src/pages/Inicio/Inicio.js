@@ -1,7 +1,7 @@
 import React from "react";
-import './inicio.css'
+import './Inicio.css'
 import { Link } from "react-router-dom";
-import Title from "../../components/items/titles";
+import Title from "../../components/items/Titles";
 
 const Home = () => {
     return (
@@ -26,8 +26,21 @@ const Home = () => {
 
             <section id="welcome">
                 <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel">
-                    <Title text="Arte na Rede Pi" />
-                    {/* <img src="./image/carrossel/carrossel-de-foto-pg-inicial.jpg" class="d-block w-100" alt="..." /> */}
+                    <div className="welcome-title">
+                        <Title text="Arte na Rede Pi" />
+                    
+                        <h5>uma nova realidade para o ensino das artes integradas</h5>
+                    </div>
+
+                    <div className="welcome-plus">
+                        <Link id='navItem' className="nav-link active" aria-current="page" to='/sobre-o-projeto'>
+                            <button type="button" className="btn-2">Saiba mais</button>
+                        </Link>
+                    </div>
+
+                    <div className="arrow">
+                        <img src="./image/carrossel/Arrow.png" alt="seta" />
+                    </div>
                 </div>
             </section>
 

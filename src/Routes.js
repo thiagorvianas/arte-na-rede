@@ -1,7 +1,7 @@
 import { ReactDOM } from 'react-dom/client';
 import { Routes, Route } from 'react-router-dom';
 
-import Home from './pages/inicio/inicio';
+import Home from './pages/Inicio/Inicio';
 import About from './pages/sobre-o-projeto/sobre-o-projeto';
 import Formative from './pages/acoes-formativas/acoes-formativas';
 import Occupe from './pages/ocupa-a-rede/ocupa-a-rede';

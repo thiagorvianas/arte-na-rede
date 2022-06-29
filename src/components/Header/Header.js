@@ -1,7 +1,7 @@
 import React from 'react';
-import './header.css';
+import './Header.css';
 
-import Logotipo from '/home/thiago/Documentos/Projetos TH DEV/arte-na-rede/arte-na-rede/src/components/logotipo.js'
+import Logotipo from '../Logotipo.js'
 
 import { Link } from 'react-router-dom';
 

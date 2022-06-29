@@ -1,6 +1,6 @@
 import React from 'react';
-import './footer.css';
-import Logotipo from '../logotipo';
+import './Footer.css';
+import Logotipo from '../Logotipo';
 
 class Footer extends React.Component {
     render() {
