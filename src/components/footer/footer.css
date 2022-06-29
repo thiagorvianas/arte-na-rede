@@ -10,7 +10,7 @@
 /* SOCIAL */
 
 .social i {
-    margin: 0 10px;
+  margin: 0 10px;
 }
 
 .social {
@@ -77,11 +77,11 @@
 .logos-patrocinio {
   display: flex;
   /* justify-content: space-evenly; */
-  
+
 }
 
 .patro-logo p {
-  margin: 0 10px;
+  margin: 0 20px;
 }
 
 .patro-logo {
@@ -94,16 +94,18 @@
   margin-top: 50px;
   display: flex;
   justify-content: center;
+  text-align: center;
+  opacity: 75%;
 }
 
 .redemoinho {
   width: 85px;
-  margin: 10px 10px 20px 0 ;
+  margin: 10px 10px 20px 0;
 }
 
 .promulti {
   width: 175px;
-  margin-top: 5px;
+  margin-top: 25px;
 }
 
 .secult {
@@ -117,24 +119,137 @@
   margin: 0 10px 0;
 }
 
+.barra-light {
+  background-color: #fff;
+  width: 2px;
+  height: 75px;
+  margin: 20px 0;
+}
+
+.barra-dark {
+  background-color: rgb(46, 46, 46);
+  width: 2px;
+  height: 150px;
+  margin: 0 20px;
+  opacity: 50%;
+}
+
+/* RESPONSIVIDADE */
+
 @media screen and (max-width: 991px) {
-  .redemoinho {
-    width: 80px;
-    margin: 10px 5px 5px 0 ;
+
+  /* PATROCINADORES */
+  .patrocinadores {
+    padding: 5px;
   }
   
-  .promulti {
-    width: 150px;
-    margin-top: 5px;
-  }
-  
-  .secult {
-    width: 200px;
-    margin: 20px 0 25px 10px;
-  
+  .logos-patrocinio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    text-align: center;
   }
 
   .retangulo {
-    margin: 0 5px 0;
+    transform: rotate(90deg);
+    width: 2px;
+    margin: 0;
+  }
+
+  .redemoinho {
+    width: 80px;
+    margin: 10px 0;
+  }
+
+  .promulti {
+    width: 125px;
+    margin: 10px 0 40px;
+  }
+
+  .secult {
+    width: 220px;
+    margin: 10px 0;
+
+  }
+
+  .retangulo {
+    margin: 0;
+  }
+
+  .patro-logo {
+    margin-top: 30px;
+  }
+
+  .barra-light {
+    background-color: #fff;
+    width: 150px;
+    height: 2px;
+    margin: 10px 0;
+  }
+
+  .barra-dark {
+    background-color: rgb(46, 46, 46);
+    width: 220px;
+    height: 2px;
+    margin: 10px 0;
+    opacity: 25%;
+  }
+
+  /* SOCIAL */
+
+  .social {
+    background-image: url('../../../public/image/patrocinio/fundo-footer-cima.jpg');
+    background-position: center;
+    background-size: 100% 100%;
+    margin: 0px;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .social-button {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+
+  .social-button li {
+    display: flex;
+    align-items: center;
+  }
+
+  .social-button img {
+    width: 25px;
+  }
+
+  .social-button li:hover {
+    opacity: 80%;
+    transition: 0.5s;
+  }
+
+  .social-container {
+    display: flex;
+    color: #fff;
+    flex-direction: column;
+    /* align-items: center; */
+    text-align: end;
+  }
+
+  .follow-us {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .follow-us p {
+    margin: 0 10px;
+    font-size: 12px;
+  }
+
+  .logo-arte-na-rede {
+    width: 75px !important;
   }
 }

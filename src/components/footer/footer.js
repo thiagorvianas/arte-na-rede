@@ -14,7 +14,7 @@ class Footer extends React.Component {
                     <div className="social-container">
                         <div className="follow-us">
                             <p>ACOMPANHE NOSSAS<br />REDES SOCIAIS</p>
-                            <img src="./image/patrocinio/Retângulo branco.png" alt="no" width="1.5px" />
+                            <div className='barra-light' />
                         </div>
 
                         <ul className='social-button'>
@@ -49,13 +49,13 @@ class Footer extends React.Component {
                     <div className="logos-patrocinio">
                         {/* REDEMOINHO */}
                         <div className='patro-logo'>
-                            <p>Patrocínio</p>
+                            <p>Produção</p>
                             <a href='http://redemoinhodedanca.com.br/' target="blank">
                                 <img className="redemoinho" src='./image/patrocinio/REDEMOINHO-LOGO-5-COR-WEB.png' alt='no' />
                             </a>
                         </div>
 
-                        <img className='retangulo' src='./image/patrocinio/Retângulo.png' alt='no' width='1.5px' />
+                        <div className='barra-dark' />
 
                         <div className='patro-logo'>
                             <p>Realização</p>
@@ -65,13 +65,13 @@ class Footer extends React.Component {
                             </a>
                         </div>
                             
-                        <img className='retangulo' src='./image/patrocinio/Retângulo.png' alt='no' width='1.5px' />
+                        <div className='barra-dark' />
 
                         <div className='patro-logo'>
-                            <p>Produção</p>
+                            <p>Patrocínio</p>
                             {/* SECULT */}
 
-                            <a href='http://cultura.pi.gov.br/' target="blank">
+                            <a href='http://www.cultura.pi.gov.br/' target="blank">
                                 <img className='secult' src='./image/patrocinio/SECULT.png' alt='no' />
                             </a>
                         </div>

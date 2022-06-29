@@ -25,7 +25,7 @@ const Home = () => {
             </section> */}
 
             <section id="welcome">
-                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel">
                     <Title text="Arte na Rede Pi" />
                     {/* <img src="./image/carrossel/carrossel-de-foto-pg-inicial.jpg" class="d-block w-100" alt="..." /> */}
                 </div>
