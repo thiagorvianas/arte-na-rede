@@ -26,22 +26,15 @@
     background-color: white;
     display: flex !important;
     justify-content: start !important;
-    margin: 20px;
+    flex-direction: column;
     border-radius: 15px;
-}
-
-.content {
-    margin: 30px;
-    display: flex !important;
-    justify-content: start !important;
-    align-items: center;
 }
 
 .title {
     font-size: 60px;
 }
 
-.carousel{
+.carousel {
     /* object-fit: cover !important; */
     /* position: ; */
     width: 100%;
@@ -88,6 +81,46 @@
     margin: 35px;
 }
 
+/* Sobre */
+.sobre-1 {
+    display: flex;
+    text-align: end;
+    align-items: center;
+}
+
+.apresentation-video {
+    width: 508px;
+    height: 300px;
+}
+
+.barra-orange {
+    width: 20px;
+    height: 300px;
+    background-color: #F79418;
+    margin: 0 20px;
+}
+
+.sobre-content-1 {
+    padding: 40px 10vw;
+    background-image: url('../../../public/image/backgrounds/fundo-site-arte-na-rede1.png');
+    background-size: 150%;
+    background-position: -70px;
+}
+
+.content {
+    margin-top: 50px;
+    display: flex !important;
+    align-items: center;
+}
+
+.content img {
+    width: 500px;
+}
+
+.sobre-sec {
+    display: flex;
+}
+
 @media screen and (max-width: 991px) {
     .title {
         font-size: 45px;
@@ -100,6 +133,51 @@
     .content {
         flex-wrap: wrap;
     }
+
+    /* Sobre */
+    .sobre-1 {
+        display: flex;
+        flex-direction: column;
+        text-align: end;
+        align-items: center;
+    }
+
+    .apresentation-video {
+        width: 300px;
+        height: 170px;
+        margin: 10px 0 10px ;
+    }
+
+    .barra-orange {
+        width: 10px;
+        height: 200px;
+        background-color: #F79418;
+        /* margin: 20px; */
+    }
+
+    .sobre-content-1 {
+        padding: 35px 10px;
+        background-image: url('../../../public/image/backgrounds/fundo-site-arte-na-rede1.png');
+        background-position: -170px;
+        background-size: 300% 100%;
+    }
+
+    .content {
+        margin-top: 50px;
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+
+    .content img {
+        width: 350px;
+    }
+
+    .sobre-text-2 {
+        margin-bottom: 50px;
+    }
+
 }
 
 @media screen and (max-width: 800px) {
@@ -107,12 +185,8 @@
         font-size: 7vw;
     }
 
-    .welcome-title {
-        
-    }
-
     .welcome-title h5 {
         font-size: 15px;
-        
+
     }
 }
