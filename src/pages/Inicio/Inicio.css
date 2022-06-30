@@ -1,3 +1,8 @@
+#welcome {
+    background-image: url('/public/image/photos/20210714071008_IMG_9461.jpg');
+    background-size: 2000px;
+}
+
 .section-image {
     object-fit: cover !important;
     max-width: 40%;
@@ -122,6 +127,10 @@
 }
 
 @media screen and (max-width: 991px) {
+    #welcome {
+        background-position: 60% 25%;
+    }
+    
     .title {
         font-size: 45px;
     }

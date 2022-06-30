@@ -4,9 +4,10 @@ import './PreSection.css'
 
 class PreSection extends React.Component {
     render() {
+        const { text } = this.props;
         return (
             <div className="pre-section">
-                <Title text='Sobre o projeto' />
+                <Title text={ text } />
             </div>
         );
     }

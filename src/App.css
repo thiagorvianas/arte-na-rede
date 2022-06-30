@@ -26,12 +26,6 @@ main {
   align-items: center;
 }
 
-#welcome {
-  background-image: url('/public/image/carrossel/carrossel-de-foto-pg-inicial.jpg');
-  background-position: center;
-  background-size: 2000px;
-}
-
 .title {
   font-family: Amarillo;
   color: #fff;

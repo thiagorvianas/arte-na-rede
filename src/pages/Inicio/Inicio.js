@@ -3,6 +3,7 @@ import './Inicio.css'
 import { Link } from "react-router-dom";
 import Title from "../../components/items/Titles";
 import PreSection from "../../components/items/PreSection";
+import MiniSaibaMais from "../../components/MiniSaibaMais/MiniSaibaMais";
 
 const Home = () => {
     return (
@@ -46,7 +47,7 @@ const Home = () => {
             </section>
 
             <section className="section">
-                <PreSection />
+                <PreSection text="Sobre o projeto" />
                 <div className="sobre-content-1">
                     <section className="sobre-1">
                         <div className="sobre-sec">
@@ -77,6 +78,10 @@ const Home = () => {
 
                     </section>
                 </div>
+            </section>
+
+            <section>
+                <MiniSaibaMais />
             </section>
         </>
     );
