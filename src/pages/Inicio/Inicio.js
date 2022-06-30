@@ -52,8 +52,8 @@ const Home = () => {
                     <section className="sobre-1">
                         <div className="sobre-sec">
                             <div>
-                                <h3>Lorem Ipsum</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel magna sem. Nulla interdum mattis justo, id convallis ante vulputate ut. Integer risus nunc, vestibulum eu tellus efficitur, laoreet bibendum orci. Suspendisse cursus laoreet ultricies. Praesent molestie consequat ipsum, vel tempor erat. Integer feugiat nulla dolor, ornare feugiat turpis feugiat ac.Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                                <h3 className="title-3">O que é o Arte na Rede Pi?</h3>
+                                <p className="paragrafo">O projeto ARTE NA REDE, pretende inaugurar uma nova realidade para o ensino das artes integradas, dando continuidade ao processo de descentralização para outros municípios. É um projeto arrojado, com muita projeção e que se estende para outras cidades e estados. </p>
                             </div>
 
                             <div className="barra-orange" />
@@ -65,14 +65,14 @@ const Home = () => {
                     </section>
 
                     <section className="content">
-                        <img src="./image/photos/photo-sobre-pg-inicial.png" alt="fotos do grupo"/>
+                        <img src="./image/photos/photo-sobre-pg-inicial.png" alt="fotos do grupo" />
 
                         <div className="sobre-sec">
                             <div className="barra-orange" />
 
                             <div className="sobre-text-2">
-                                <h3>Lorem Ipsum</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel magna sem. Nulla interdum mattis justo, id convallis ante vulputate ut. Integer risus nunc, vestibulum eu tellus efficitur, laoreet bibendum orci. Suspendisse cursus laoreet ultricies. Praesent molestie consequat ipsum, vel tempor erat. Integer feugiat nulla dolor, ornare feugiat turpis feugiat ac.</p>
+                                <h3 className="title-3">Como atuamos?</h3>
+                                <p className="paragrafo">O Projeto está configurado como uma iniciativa eminentemente democrática, uma vez que viabiliza o acesso às artes da cena de boa qualidade de forma gratuita a todas as camadas da população, notadamente a população de baixa renda.</p>
                             </div>
                         </div>
 
