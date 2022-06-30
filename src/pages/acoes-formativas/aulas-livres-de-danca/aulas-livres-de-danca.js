@@ -1,10 +1,14 @@
 import React from "react";
-
+import SiteEmConstrucao from "../../../components/items/SiteEmConstrucao";
 
 const FreeClasses = () => {
   return (
-    <main>Aulas livres de dança</main>
+    <main>
+      <section>
+        <SiteEmConstrucao message="Aulas livres de Dança" />
+      </section>
+    </main>
   );
 }
-    
+
 export default FreeClasses;

@@ -19,12 +19,11 @@ const maping = () => {
             <Routes>
                 <Route exact path='/' element={<Home />} />
                 <Route exact path='/sobre-o-projeto' element={<About />} />
-                <Route exact path='/acoes-formativas' element={<Formative />} >
-                    <Route exact path='/acoes-formativas/dancando-pelo-piaui' element={<DancingPiaui/>} />
-                    <Route exact path='/acoes-formativas/outras-formacoes' element={<OtherFormations/>}></Route>
-                    <Route exact path='/acoes-formativas/aulas-livres-de-danca' element={<FreeClasses/>}></Route>
-                    <Route exact path='/acoes-formativas/seminarios' element={<Seminaries/>}></Route>
-                </Route>
+                <Route exact path='/acoes-formativas' element={<Formative />} />
+                    <Route exact path='/acoes-formativas/dancando-pelo-piaui' element={<DancingPiaui />} />
+                    <Route exact path='/acoes-formativas/outras-formacoes' element={<OtherFormations />} />
+                    <Route exact path='/acoes-formativas/aulas-livres-de-danca' element={<FreeClasses />} />
+                    <Route exact path='/acoes-formativas/seminarios' element={<Seminaries />} />
                 <Route exact path='/ocupa-a-rede' element={<Occupe />} />
                 <Route exact path='/apresentacoes' element={<Apresentations />} />
                 <Route exact path='/artistas-convidades' element={<Partners />} />

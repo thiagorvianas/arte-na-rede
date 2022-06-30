@@ -1,10 +1,14 @@
 import React from "react";
-
+import SiteEmConstrucao from "../../../components/items/SiteEmConstrucao";
 
 const OtherFormations = () => {
   return (
-    <main>Outras Formações</main>
+    <main>
+      <section>
+        <SiteEmConstrucao message="Outras formações" />
+      </section>
+    </main>
   );
 }
-    
+
 export default OtherFormations;

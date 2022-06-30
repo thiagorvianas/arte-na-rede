@@ -1,9 +1,13 @@
 import React from "react";
-
+import SiteEmConstrucao from "../../components/items/SiteEmConstrucao";
 
 const Partners = () => {
     return (
-        <div>Artistas convidades</div>
+        <main>
+            <section>
+                <SiteEmConstrucao message="Artistas convidades" />
+            </section>
+        </main>
     );
 }
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import './Header.css';
 
-import Logotipo from '../Logotipo.js'
+import Logotipo from '../items/Logotipo.js'
 
 import { Link } from 'react-router-dom';
 
@@ -34,7 +34,7 @@ const mainMenu = (
                 <div className='dropdown-content'>
                     <Link id='navItem' className="nav-link active" to='/acoes-formativas/dancando-pelo-piaui'>Oficinas Dançando pelo Piauí</Link>
                     <Link id='navItem' className="nav-link active" to='/acoes-formativas/outras-formacoes'>Outras formações</Link>
-                    <a href='http://redemoinhodedanca.com.br' id='navItem' className="nav-link active" to='/acoes-formativas/aulas-livres-de-danca' target='_blank' rel="noreferrer">Aulas livres de dança</a>
+                    <a href='http://redemoinhodedanca.com.br' id='navItem' className="nav-link active" target='_blank' rel="noreferrer">Aulas livres de dança</a>
                     <Link id='navItem' className="nav-link active" to='/acoes-formativas/seminarios'>Seminários</Link>
                 </div>
             </li>
@@ -63,7 +63,7 @@ class Header extends React.Component {
 
                     {burgerMenu}
 
-                    <Logotipo adress="./image/arte-na-rede-pi.png" />
+                    <Logotipo adress="../image/arte-na-rede-pi.png" />
 
                     {mainMenu}
 

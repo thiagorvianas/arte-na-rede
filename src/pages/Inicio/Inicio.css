@@ -74,10 +74,6 @@
     transition: 0.3s;
 }
 
-.welcome-plus {
-    /* margin-top: 2%; */
-}
-
 .btn-2:hover {
     color: #fff;
     background: #F79418;
@@ -135,7 +131,7 @@
 
 @media screen and (max-width: 991px) {
     #welcome {
-        background-position: 60% 25%;
+        background-position: 60% 15%;
     }
 
     .welcome-title {

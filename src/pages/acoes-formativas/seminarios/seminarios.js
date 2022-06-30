@@ -1,9 +1,13 @@
 import React from "react";
-
+import SiteEmConstrucao from "../../../components/items/SiteEmConstrucao";
 
 const Seminaries = () => {
   return (
-    <main>Seminarios</main>
+    <main>
+            <section>
+                <SiteEmConstrucao message="Seminários" />
+            </section>
+        </main>
   );
 }
     

@@ -1,9 +1,14 @@
 import React from "react";
+import SiteEmConstrucao from "../../components/items/SiteEmConstrucao";
 
 
 const Formative = () => {
     return (
-        <div>Açoes Formativas</div>
+        <main>
+            <section>
+                <SiteEmConstrucao message="Ações formativas" />
+            </section>
+        </main>
     );
 }
 
