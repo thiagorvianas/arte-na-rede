@@ -1,9 +1,11 @@
 import React from "react";
-
+import SiteEmConstrucao from "../../components/items/SiteEmConstrucao";
 
 const Occupe = () => {
     return (
-        <div>Ocupa a rede</div>
+        <div>
+            <SiteEmConstrucao />
+        </div>
     );
 }
 

@@ -2,19 +2,22 @@ import './App.css';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 
-// import { BrowserRouter } from 'react-router-dom';
-import Routes from './Routes';
+import { BrowserRouter } from 'react-router-dom';
+import Content from './Routes';
+import React from 'react';
 
-function App() {
-  return (
-    <>
-      <Header />
-      <div className="App">
-        <Routes />
-      </div>
-      <Footer />
-    </>
-  );
+class App extends React.Component {
+  render() {
+    return (
+      <BrowserRouter>
+        <div className="App">
+          <Header />
+          <Content />
+          <Footer />
+        </div>
+      </BrowserRouter>
+    );
+  }
 }
 
 export default App;

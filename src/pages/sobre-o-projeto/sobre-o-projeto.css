@@ -1,0 +1,96 @@
+#about-project {
+    background-image: url('/public/image/sobre-o-projeto/Fundo\ header.jpg');
+    background-size: 100% 100%;
+    /* weight: 100vh; */
+    /* height: 100%; */
+    /* margin-top: 7%; */
+}
+
+#about-title {
+    background-image: url('/public/image/sobre-o-projeto/sobe-hd.jpg');
+    color: #fff;
+}
+
+.about-project {
+    font-family: Amarillo;
+}
+
+.about-video {
+    width: 600px;
+    height: 340px;
+}
+
+.about-sec-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 20%;
+}
+
+.about-text-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-photos {
+    width: 500px;
+}
+
+.about-sec-2 {
+    display: flex;
+    padding: 20px 20%;
+    margin-top: 25px;
+}
+
+.about-text-2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.title-3 {
+    margin-bottom: 25px;
+}
+
+.a-arte-transforma {
+    background-image: url('../../../public/image/sobre-o-projeto/a-arte-transforma.jpg');
+
+    width: 100%;
+    /* height: 500px; */
+}
+
+@media screen and (max-width: 991px) {
+    
+    
+    .about-sec-1 {
+        padding: 20px 3%;
+    }
+    
+    .about-text-1 {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-video {
+        width: 300px;
+        height: 170px;
+    }
+
+    .about-sec-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 3%;
+        margin: 0;
+    }
+
+    .about-photos {
+        width: 250px;
+    }
+
+    .about-text-2 {
+        margin: 20px 0 0 0;
+        align-items: center;
+        justify-content: center;
+    }
+}

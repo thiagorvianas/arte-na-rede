@@ -12,9 +12,10 @@ import Apresentations from './pages/apresentacoes/apresentacoes';
     import Seminaries from './pages/acoes-formativas/seminarios/seminarios';
 
 import Partners from './pages/artistas-convidades/artistas-convidades';
+import React from 'react';
 
-const maping = () => {
-
+class Content extends React.Component {
+    render() {
     return (
             <Routes>
                 <Route exact path='/' element={<Home />} />
@@ -29,7 +30,7 @@ const maping = () => {
                 <Route exact path='/artistas-convidades' element={<Partners />} />
             </Routes>
     );
-
+    }
 }
 
-export default maping;
+export default Content;
