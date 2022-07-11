@@ -1,9 +1,8 @@
-.saiba-mais-buttons {
+.acoes-formativas-buttons {
     display: flex;
     justify-content: center;
-    background-color: rgb(255, 255, 255);
     flex-wrap: wrap;
-    padding: 0 5vw 30px;
+    /* padding: 0 5vw 30px; */
 }
 
 .bloco-01 {
@@ -14,7 +13,11 @@
     display: flex;
 }
 
-.button-saiba-mais {
+.acoes-formativas-title {
+    text-align: center;
+}
+
+.button-acoes-formativas {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -23,12 +26,12 @@
     transition: 0.3s;
 }
 
-.button-saiba-mais:hover {
+.button-acoes-formativas:hover {
     opacity: 80%;
     transition: 0.3s;
 }
 
-.saiba-mais-box {
+.acoes-formativas-box {
     width: 150px;
     height: 150px;
     background-color: #F79418;
@@ -37,34 +40,34 @@
 }
 
 
-.acoes-formativas {
-    background-image: url('../../../public/image/saiba-mais-images/acoes-formativas.jpg');
+.aulas-livres-de-danca {
+    background-image: url('../../../public/image/acoes-formativas/AULAS-LIVRES\ DE\ DANÇA.jpg');
     background-size: 100%;
 }
 
-.ocupa-a-rede {
-    background-image: url('../../../public/image/saiba-mais-images/ocupa-a-rede.jpg');
+.oficinas-dancando-pelo-piaui {
+    background-image: url('../../../public/image/acoes-formativas/OFICINAS-DANCANDO-PELO-PIAUI.jpg');
     background-size: 100%;
 }
 
-.apresentacoes {
-    background-image: url('../../../public/image/saiba-mais-images/apresentacoes.jpg');
+.seminarios {
+    background-image: url('../../../public/image/acoes-formativas/SEMINARIOS.jpg');
     background-size: 100%;
 }
 
-.artistas-convidades {
-    background-image: url('../../../public/image/saiba-mais-images/artistas-convidades.jpg');
+.outras-formacoes {
+    background-image: url('../../../public/image/acoes-formativas/OUTRAS-FORMACOES.jpg');
     background-size: 100%;
 }
 
 @media screen and (max-width: 991px) {
-    .button-saiba-mais {
+    .button-acoes-formativas {
         margin: 5px 0px;
         width: 180px;
         font-size: 13px;
     }
 
-    .saiba-mais-box {
+    .acoes-formativas-box {
         width: 130px;
         height: 130px;
     }

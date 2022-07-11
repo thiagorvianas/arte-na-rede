@@ -9,6 +9,7 @@
 #about-title {
     background-image: url('/public/image/sobre-o-projeto/sobe-hd.jpg');
     color: #fff;
+    text-align: center;
 }
 
 .about-project {

@@ -34,11 +34,12 @@
 .social-button li {
   display: flex;
   align-items: center;
+  transition: 0.3s;
 }
 
 .social-button li:hover {
   opacity: 80%;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 .social-container {
