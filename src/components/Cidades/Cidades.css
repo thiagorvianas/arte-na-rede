@@ -1,0 +1,105 @@
+.cidades-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 35px 17%;
+}
+
+.cidade-blocos {
+    display: flex;
+}
+
+.cidades-title {
+    text-align: center;
+}
+
+.button-cidades {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px 10px;
+    width: 200px;
+    transition: 0.3s;
+}
+
+.button-cidades:hover {
+    opacity: 80%;
+    transition: 0.3s;
+}
+
+.cidades-box {
+    width: 200px;
+    height: 200px;
+    background-color: #F79418;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+
+.teresina {
+    background-image: url('../../../public/image/acoes-formativas/oficinas-dancando-pelo-piaui/Teresina.jpg');
+    background-size: 100%;
+}
+
+.uniao {
+    background-image: url('../../../public/image/acoes-formativas/oficinas-dancando-pelo-piaui/União-Pi.jpg');
+    background-size: 100%;
+}
+
+.castelo {
+    background-image: url('../../../public/image/acoes-formativas/oficinas-dancando-pelo-piaui/Castelo.jpg');
+    background-size: 100%;
+}
+
+.sao-joao-da-serra {
+    background-image: url('../../../public/image/acoes-formativas/oficinas-dancando-pelo-piaui/São\ joão\ da\ serra.jpg');
+    background-size: 100%;
+}
+
+.cabeceiras{
+    background-image: url('../../../public/image/acoes-formativas/oficinas-dancando-pelo-piaui/Cabeceiras.jpg');
+    background-size: 100%;
+}
+
+.jose-de-freitas{
+    background-image: url('../../../public/image/acoes-formativas/oficinas-dancando-pelo-piaui/José\ de\ freitas.jpg');
+    background-size: 100%;
+}
+
+.bom-jesus{
+    background-image: url('../../../public/image/acoes-formativas/oficinas-dancando-pelo-piaui/Bom\ jesus.jpg');
+    background-size: 100%;
+}
+
+.currais{
+    background-image: url('../../../public/image/acoes-formativas/oficinas-dancando-pelo-piaui/Currais.jpg');
+    background-size: 100%;
+}
+
+.sao-raimundo-nonato{
+    background-image: url('../../../public/image/acoes-formativas/oficinas-dancando-pelo-piaui/São\ Raimundo\ Nonato.jpg');
+    background-size: 100%;
+}
+
+.floriano{
+    background-image: url('../../../public/image/acoes-formativas/oficinas-dancando-pelo-piaui/Floriano.jpg');
+    background-size: 100%;
+}
+
+.parnaiba{
+    background-image: url('../../../public/image/acoes-formativas/oficinas-dancando-pelo-piaui/Parnaíba.jpg');
+    background-size: 100%;
+}
+
+@media screen and (max-width: 991px) {
+    .button-cidades {
+        margin: 5px 0px;
+        width: 180px;
+        font-size: 13px;
+    }
+
+    .cidades-box {
+        width: 170px;
+        height: 170px;
+    }
+}

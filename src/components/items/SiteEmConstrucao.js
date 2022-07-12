@@ -9,7 +9,7 @@ class SiteEmConstrucao extends React.Component {
             <div className="em-construcao-container">
                 <h1>{ message } estará disponível em breve!</h1>
 
-                <img src="../image/site-em-construcao/paginaEmConstrucao.png" alt="Página em construção"/>
+                <img src="../../image/site-em-construcao/paginaEmConstrucao.png" alt="Página em construção"/>
             </div>
         );
     }

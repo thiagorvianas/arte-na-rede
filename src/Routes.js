@@ -11,6 +11,8 @@ import Apresentations from './pages/apresentacoes/apresentacoes';
     import FreeClasses from './pages/acoes-formativas/aulas-livres-de-danca/aulas-livres-de-danca';
     import Seminaries from './pages/acoes-formativas/seminarios/seminarios';
 
+import SiteEmConstrucao from './components/items/SiteEmConstrucao';
+
 import Partners from './pages/artistas-convidades/artistas-convidades';
 import React from 'react';
 
@@ -22,6 +24,7 @@ class Content extends React.Component {
                 <Route exact path='/sobre-o-projeto' element={<About />} />
                 <Route exact path='/acoes-formativas' element={<Formative />} />
                     <Route exact path='/acoes-formativas/dancando-pelo-piaui' element={<DancingPiaui />} />
+                        <Route exact path='/acoes-formativas/dancando-pelo-piaui/teresina/' element={<SiteEmConstrucao />} />
                     <Route exact path='/acoes-formativas/outras-formacoes' element={<OtherFormations />} />
                     <Route exact path='/acoes-formativas/aulas-livres-de-danca' element={<FreeClasses />} />
                     <Route exact path='/acoes-formativas/seminarios' element={<Seminaries />} />

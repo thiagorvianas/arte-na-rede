@@ -8,7 +8,7 @@ class Footer extends React.Component {
             <footer className='footer'>
                 <div className='social text-center'>
                     <div>
-                        <Logotipo adress="./image/patrocinio/ARTE-NA-REDE-PI-LOGO-PRETO-E-AMARELO.png" />
+                        <Logotipo adress="../image/patrocinio/ARTE-NA-REDE-PI-LOGO-PRETO-E-AMARELO.png" />
                     </div>
 
                     <div className="social-container">
@@ -20,25 +20,25 @@ class Footer extends React.Component {
                         <ul className='social-button'>
                             <li>
                                 <a href='https://www.instagram.com/artena_rede/' target="blank">
-                                    <img src='./image/patrocinio/instagram.png' alt='no' width='35px' />
+                                    <img src='../image/patrocinio/instagram.png' alt='no' width='35px' />
                                 </a>
                             </li>
 
                             <li>
                                 <a href='https://www.facebook.com/artenaredepi/' target="blank">
-                                    <img src='./image/patrocinio/facebook.png' alt='no' width='35px' />
+                                    <img src='../image/patrocinio/facebook.png' alt='no' width='35px' />
                                 </a>
                             </li>
 
                             <li>
                                 <a href='https://www.youtube.com/channel/UC_sFWsgggd5M5ZtoMsOR8bw' target="blank">
-                                    <img src='./image/patrocinio/youtube.png' alt='no' width='35px' />
+                                    <img src='../image/patrocinio/youtube.png' alt='no' width='35px' />
                                 </a>
                             </li>
 
                             <li>
                                 <a href='mailto:redemoinho.danca@gmail.com' target="blank">
-                                    <img src='./image/patrocinio/email.png' alt='no' width='35px' />
+                                    <img src='../image/patrocinio/email.png' alt='no' width='35px' />
                                 </a>
                             </li>
                         </ul>
@@ -51,7 +51,7 @@ class Footer extends React.Component {
                         <div className='patro-logo'>
                             <p>Produção</p>
                             <a href='http://redemoinhodedanca.com.br/' target="blank">
-                                <img className="redemoinho" src='./image/patrocinio/REDEMOINHO-LOGO-5-COR-WEB.png' alt='no' />
+                                <img className="redemoinho" src='../image/patrocinio/REDEMOINHO-LOGO-5-COR-WEB.png' alt='no' />
                             </a>
                         </div>
 
@@ -61,7 +61,7 @@ class Footer extends React.Component {
                             <p>Realização</p>
                             {/* PROMULT */}
                             <a href='http://instagram.com/promultipi/' target="blank">
-                                <img className='promulti' src='./image/patrocinio/Cópia de PROMULTI-logo-final_aprovada.png' alt='no' />
+                                <img className='promulti' src='../image/patrocinio/Cópia de PROMULTI-logo-final_aprovada.png' alt='no' />
                             </a>
                         </div>
                             
@@ -72,7 +72,7 @@ class Footer extends React.Component {
                             {/* SECULT */}
 
                             <a href='http://www.cultura.pi.gov.br/' target="blank">
-                                <img className='secult' src='./image/patrocinio/SECULT.png' alt='no' />
+                                <img className='secult' src='../image/patrocinio/SECULT.png' alt='no' />
                             </a>
                         </div>
 
